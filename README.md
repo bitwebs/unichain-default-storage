@@ -1,17 +1,17 @@
-# hypercore-default-storage
+# unichain-default-storage
 
-Default storage provider used by Hypercore
+Default storage provider used by Unichain
 
 ```
-npm install hypercore-default-storage
+npm install @web4/unichain-default-storage
 ```
 
 ## Usage
 
 ``` js
-const defaultStorage = require('hypercore-default-storage')
+const defaultStorage = require('@web4/unichain-default-storage')
 
-const feed = hypercore(name => defaultStorage(name, { directory: 'feed' }))
+const feed = unichain(name => defaultStorage(name, { directory: 'feed' }))
 ```
 
 ## API

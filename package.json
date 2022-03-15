@@ -1,7 +1,7 @@
 {
-  "name": "hypercore-default-storage",
-  "version": "1.1.1",
-  "description": "Default storage provider used by Hypercore",
+  "name": "@web4/unichain-default-storage",
+  "version": "1.0.0",
+  "description": "Default storage provider used by Unichain",
   "main": "index.js",
   "dependencies": {
     "random-access-file": "^2.1.5"
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mafintosh/hypercore-default-storage.git"
+    "url": "https://github.com/bitwebs/unichain-default-storage.git"
   },
   "browser": {
     "fsctl": false
   },
-  "author": "Mathias Buus (@mafintosh)",
+  "author": "Mathias Buus (@bitwebs)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mafintosh/hypercore-default-storage/issues"
+    "url": "https://github.com/bitwebs/unichain-default-storage/issues"
   },
-  "homepage": "https://github.com/mafintosh/hypercore-default-storage"
+  "homepage": "https://github.com/bitwebs/unichain-default-storage"
 }
